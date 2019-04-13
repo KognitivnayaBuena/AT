@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color:#becbd7;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.header{
+  height: 20px;
+  background-color: #357fbd;
+}
+ 
+.search_block{
+  position: absolute;
+  background-color: white;
+  border-radius: 5px;
+  height:30px;
+  margin-top:20px;
+  width:650px;
+  border-width: 0;
+  left:50%; 
+  margin-left:-350px;
+  padding-left:15px;
+}  
+
+.sub_search_block{
+  position: absolute;
+  background-color: white;
+  border-radius: 5px;
+  height:230px;
+  width:200px;
+  left:50%; 
+  margin-left:-350px;
+  margin-top:80px;
+  padding-left: 10px;
+}
+
+.sub_search_block select{
+  border-radius: 5px;
+  width:150px;
+  height: 25px;
+}
+
+.sub_search_block_button{
+  position: absolute;
+  left:75px;
+  background-color: #52ad8a;
+  border-radius: 5px;
+  border-width: 0;
+  color:white;
+  width:75px;
+  height:25px;
+  margin:15px;
+}
+
+.sub_search_block_button2{
+  position: absolute;
+  top:185px;
+  left:10px;
+  background-color: #52ad8a;
+  border-radius: 5px;
+  border-width: 0;
+  color:white;
+  width:75px;
+  height:25px;
+}
+
+.sub_search_block input{
+  border-radius: 5px;
+  border-width: 1px;
+
+}
+
+.login_block{
+  position: absolute;
+  margin-left:-150px;
+  top:150px;
+  left:650px;
+}
+
+.login_block input{
+  padding-left:5px;
+  width:250px;
+  height: 30px;
+  
+}
+
+.login_block input[type="text"]{
+  border-radius: 5px;
+  border-width:1px;
+  margin-bottom:10px;
+}
+
+.login_block input[type="password"]{
+  border-radius: 5px;
+  border-width:1px;
+}
+
+.sub_search_first,
+.sub_search_second{
+  padding-left: 10px;
+  outline:none;
+}
+
+.people_block{
+  position: absolute;
+  top:120px;
+  left:520px;
+  width:435px;
+  background-color: white;
+  border-radius: 5px;  
+}
+
+.people_block_text{
+  position: relative;
+  left:100px;
+  top:-20px;
+}
